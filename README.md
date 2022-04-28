@@ -2,6 +2,7 @@
 
 2022년도 개발자들 FE - 리액트 02
 
+
 ## How to start
 
 1. Fork this repo
@@ -21,3 +22,8 @@ yarn start
 # or 
 npm start
 ```
+
+
+## Study
+
+[스터디 정리 / 2022.04.28](docs/README.md)
