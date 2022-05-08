@@ -27,3 +27,8 @@ npm start
 ## Study
 
 [스터디 정리 / 2022.04.28](docs/README.md)
+
+
+## Result
+
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/63100352/167296185-5d7f1769-77f2-4761-abb0-3ad46efec606.gif)
