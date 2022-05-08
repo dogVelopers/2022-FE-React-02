@@ -19,21 +19,19 @@
   border: 2px solid black;
 }
 
-.increase {
+.someButton {
   all: unset;
   text-align: center;
   font-weight: bolder;
-  background-color: #7ed6df;
   width: 60px;
   height: 60px;
+}
+
+.increase {
+  background-color: #7ed6df;
   margin-right: 15px;
 }
 
 .decrease {
-  all: unset;
-  text-align: center;
-  font-weight: bolder;
   background-color: #badc58;
-  width: 60px;
-  height: 60px;
 }

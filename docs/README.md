@@ -54,3 +54,36 @@ fetch란 다른 서버에 데이터를 요청하는 메소드다.
 ```jsx
 setState(state.concat(state.length));
 ```
+
+공통되는 css는 한 클래스로 묶어서 사용 가능하다.
+
+```css
+.someButton {
+  all: unset;
+  text-align: center;
+  font-weight: bolder;
+  width: 60px;
+  height: 60px;
+}
+
+.increase {
+  background-color: #7ed6df;
+  margin-right: 15px;
+}
+
+.decrease {
+  background-color: #badc58;
+}
+```
+
+```jsx
+<button className={'someButton increase'} onClick={increaseState}>+</button>
+<button className={'someButton decrease'}  onClick={decreaseState}>-</button>
+```
+
+setState는 비동기적으로 동작하기 때문에 이전 상태를 참조하는 것이 안전성이 높다.
+
+```jsx
+setState((state) => state.concat(state.length));
+```
+
