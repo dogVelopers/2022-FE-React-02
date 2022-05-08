@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.arrayBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 15px;
+
+  width: 45px;
+  height: 55px;
+
+  font-size: 18px;
+  border: 2px solid black;
+}
+
+.increase {
+  all: unset;
+  text-align: center;
+  font-weight: bolder;
+  background-color: #7ed6df;
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+
+.decrease {
+  all: unset;
+  text-align: center;
+  font-weight: bolder;
+  background-color: #badc58;
+  width: 60px;
+  height: 60px;
+}
