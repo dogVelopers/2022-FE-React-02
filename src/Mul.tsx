@@ -1,11 +1,13 @@
 import { ChangeEvent, useState } from "react";
 import "./Mul.css";
 
+
+const dan = Array.from({ length: 8 }, (_, i) => i + 2); // 2단부터 9단까지
+
+const number = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
 function Mul() {
     const [numState, numSetState] = useState<number>(2); // 2부터 시작
-
-    const dan = [2, 3, 4, 5, 6, 7, 8, 9]; // 2단부터 9단까지
-    const number = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
     function selectDan(event: ChangeEvent<HTMLSelectElement>) {
         numSetState(parseInt(event.target.value))

@@ -87,3 +87,8 @@ setState는 비동기적으로 동작하기 때문에 이전 상태를 참조하
 setState((state) => state.concat(state.length));
 ```
 
+### 구구단
+
+선언과 동시에 원하는 숫자부터 n까지 선언할 수 있다.
+
+[참고](https://stackoverflow.com/questions/3746725/how-to-create-an-array-containing-1-n)
