@@ -92,3 +92,44 @@ setState((state) => state.concat(state.length));
 선언과 동시에 원하는 숫자부터 n까지 선언할 수 있다.
 
 [참고](https://stackoverflow.com/questions/3746725/how-to-create-an-array-containing-1-n)
+
+### Submit과 Change
+
+```jsx
+<form>
+  <input type="text" />
+  <button type="submit">확인</button>
+</form>
+```
+
+form 태그 안의 버튼은 type="submit"이 기본으로 들어가있고, input은 type="text"가 기본으로 되어있기 때문에 생략 가능하다.
+
+```jsx
+<form>
+  <input />
+  <button>확인</button>
+</form>
+```
+
+
+```jsx
+  <label htmlFor="">아이디: </label>
+                <input value={textValue} onChange={onChangeInput} />
+```
+
+웹 표준을 지키기 위해 label과 input을 같이쓰며 html에서는 for을 쓰지만 jsx에서는 htmlFor을 사용한다.
+
+### htmlFor
+
+```jsx
+<label htmlFor="check1">이걸 눌러도 체크가능</label>
+<input id="check1" type="checkbox" />
+```
+
+```css
+#check{
+  appearance: none;
+}
+```
+
+시각장애인을 위한 리더기에 display: none은 표시가 되기 때문에 appearance: none으로 써야한다.
