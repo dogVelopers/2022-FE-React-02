@@ -114,7 +114,7 @@ form 태그 안의 버튼은 type="submit"이 기본으로 들어가있고, inpu
 
 ```jsx
   <label htmlFor="">아이디: </label>
-                <input value={textValue} onChange={onChangeInput} />
+  <input value={textValue} onChange={onChangeInput} />
 ```
 
 웹 표준을 지키기 위해 label과 input을 같이쓰며 html에서는 for을 쓰지만 jsx에서는 htmlFor을 사용한다.
