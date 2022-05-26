@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.selectNum {
+  font-size: 30px;
+  font-weight: 700;
+  color: #6768AB;
+  border-bottom: 1px solid rgb(205, 205, 205);
+  padding-bottom: 8px;
+}
+
+.selectWrapper {
+  margin: 30px 0;
+}
+
+.selectButton {
+  width: 80px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.resultWrapper{
+    font-size: 20px;
+    font-weight: 300;
+}

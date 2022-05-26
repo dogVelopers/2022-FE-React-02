@@ -1,0 +1,37 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.arrayBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 15px;
+
+  width: 45px;
+  height: 55px;
+
+  font-size: 18px;
+  border: 2px solid black;
+}
+
+.someButton {
+  all: unset;
+  text-align: center;
+  font-weight: bolder;
+  width: 60px;
+  height: 60px;
+}
+
+.increase {
+  background-color: #7ed6df;
+  margin-right: 15px;
+}
+
+.decrease {
+  background-color: #badc58;
+}
